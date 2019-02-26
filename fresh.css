@@ -1,0 +1,39 @@
+html {
+  font-family: arial, sans-serif;
+  line-height: 2;
+}
+
+body {
+  margin: auto;
+  padding: 2rem;
+  font-size: calc(1rem + 2vw);
+}
+
+:focus {
+  outline-color: currentColor;
+  outline-style: groove;
+  text-decoration: none;
+}
+
+.accent { font: inherit }
+.hella { font-weight: 700 }
+.hello { font-size: 1.5em }
+.hellu { font-size: 1.125em }
+.tight { line-height: 1.05 }
+.slime { max-width: 20em }
+.slick { list-style: none }
+.flush { margin: 0; padding: 0 }
+
+.pad-0 { padding: 0 }
+.pad-1 { padding: 1rem }
+.pad-2 { padding: 2rem }
+
+.m-zero { margin: 0 }
+.m-auto { margin: auto }
+.m-stack:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.m-flow {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
